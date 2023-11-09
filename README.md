@@ -12,6 +12,8 @@ on a large dataset stored in HDFS.
    * [K-Means clustering Overview](#k-means-clustering-overview)
    * [Prerequisites](#prerequisites)
    * [Project Structure](#project-structure)
+   * [Usage](#usage)
+
 
 ## K-Means clustering Overview
 > K-means is a centroid-based clustering algorithm, where we calculate the distance between each data point and 
@@ -53,7 +55,7 @@ a centroid to assign it to a cluster. The goal is to identify the K number of gr
 
 ```
 
-## Code 
+## Usage
 
 Copies the local file points.csv to the HDFS filesystem at the specified path. 
 
